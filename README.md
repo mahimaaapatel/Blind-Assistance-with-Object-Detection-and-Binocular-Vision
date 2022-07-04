@@ -11,7 +11,11 @@ To install all the necessary libraries:
 pip install -r requirements.txt
 ```
 <br />
-
+<br />
+Hardware Setup:
+The camera modules and NodeMCU must be connected to a WiFi network and the IP Address obtained must be edited in the code. The stream is obtained from the respective IP Address of the camera modules and the results are written to the IP Address of the NodeMCU which is in turn connected to the Vibration Motor.
+<br />
+<br />
 To run the main file and estimate depth of the detected object:<br />
 ```
 python stereoVision.py
