@@ -6,12 +6,14 @@ We were inspired to embark on a vision assistance project to assist the blind, a
 Following the acquisition of the binocular image, we run it through a CNN-based object detection model to help us identify the classes to which they belong and therefore lead the visually impaired along their journey. A pressure application device linked to the person's body serves as a means of communication between the model and the visually handicapped. Obstacles in everyday life can be related to various pressures, which tell the individual how far or close the object is. With the dependence on technology, we may help these individuals find independence for themselves.
 <br />
 <br />
+To install all the necessary libraries:
 ```
-Run pip install -r requirements.txt to install all the necessary packages.
+pip install -r requirements.txt
 ```
 <br />
 <br />
-```
+
 To run the main file and estimate depth of the detected object:<br />
+```
 python stereoVision.py
 ```
