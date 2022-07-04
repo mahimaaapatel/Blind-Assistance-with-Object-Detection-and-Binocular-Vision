@@ -11,7 +11,6 @@ To install all the necessary libraries:
 pip install -r requirements.txt
 ```
 <br />
-<br />
 
 To run the main file and estimate depth of the detected object:<br />
 ```
